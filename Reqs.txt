@@ -1,0 +1,40 @@
+User moet input (woord/letter) kunnen geven
+Strings moeten kunnen worden vergeleken
+User moet woordlengte kunnen zien
+Code moet woord kunnen kiezen
+Aantal pogingen bijhouden
+Visuele galg
+Geraden letters bijhouden
+Goed geraden letters invullen op blanco woord
+Win en Fail state met passende tekst
+Uitsluiten dat non-alphabetische input wordt gegeven
+Uitsluiten dat te lange input niet wordt gebruikt
+Input sanitisation (hoofdletters -> kleine letters, of andersom)
+Al geraden letters niet dubbel tellen
+Max gokken en gedane gokken bijhouden en tonen
+
+
+
+
+''' Galgje
+Met functies besproken hebben jullie alle handvaten om zelf galgje te programmeren! Met nog een extra stukje code van mij om een woordlijst te maken en er een woord uit te kiezen, kunnen jullie los gaan! Voor Woensdag 21 Mei inleveren! Tussendoor vragen//feedback mag altijd!
+'''
+# import random
+
+# def wordchoice():
+#     """
+#     Maakt een list van woorden uit Woordlijst.txt, en geeft er daar een van terug
+
+#     Returns:
+#         Een woord, in string vorm
+
+#     """
+#     wordlist = []
+#     filepath = "C:/Users/marti/Dropbox/Hacklab/Python Lessen/Huiswerk/Galgje/Woordlijst.txt"
+#     with open(filepath, "r") as words:
+#     #Loopt door alle regels in de woordenlijst https://stackoverflow.com/questions/1323364/in-python-how-to-check-if-a-string-only-contains-certain-characters
+#         for line in words:
+#             wordlist.append(line.strip())
+#     return random.choice(wordlist)
+
+# print(wordchoice())
